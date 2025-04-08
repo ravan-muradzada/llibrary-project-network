@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Update a Book</title>
+  <link rel="stylesheet" href="/css/update-a-book.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>✏️ Update Book Info</h1>
+    <form id="updateBookForm">
+      <input type="text" id="bookId" placeholder="Book ID to update" required />
+      <input type="text" id="bookName" placeholder="New Book Name (optional)" />
+      <input type="text" id="authorName" placeholder="New Author Name (optional)" />
+      <input type="text" id="genre" placeholder="New Genre (optional)" />
+      <button type="submit">Update Book</button>
+    </form>
+    <div id="updateResult"></div>
+    <a href="/" class="back-link">⬅️ Back to Home</a>
+  </div>
+  <script src="/js/update-a-book.js"></script>
+</body>
+</html>
